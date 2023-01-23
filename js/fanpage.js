@@ -6,8 +6,8 @@ function getCatImage(){
 }
 
 function btnClick(){
-    console.log("in btnClick")
+    console.log("in btnClick");
     let button = document.getElementById("cat-btn");
     button.addEventListener("click", getCatImage);
-    console.log("finished function")
+    console.log("finished function");
 }
