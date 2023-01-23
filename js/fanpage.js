@@ -12,7 +12,7 @@ function getCatImage(){
 
 function btnClick(){
     console.log("in btnClick")
-    let button = document.getElementbyId("cat-btn");
+    let button = document.getElementById("cat-btn");
     button.addEventListener("click", getCatImage);
     console.log("finished function")
 }
