@@ -40,6 +40,11 @@ body{
     padding: 0px 10px;
   }
 
+  p {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+  }
+
 
   #cat-btn {
     margin-left: 160px; /* Same as the width of the sidebar */
