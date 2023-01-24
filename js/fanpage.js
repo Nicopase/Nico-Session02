@@ -11,3 +11,8 @@ function btnClick(){
     button.addEventListener("click", getCatImage);
     console.log("finished function");
 }
+
+document.addEventListener("DOMContentLoaded", () => {
+    getCatImage()
+    btnClick()
+})
